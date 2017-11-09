@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/editID"
+
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:hint="ID입력" />
+
+    <EditText
+        android:id="@+id/editPW"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password입력"/>
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:orientation="horizontal">
+    <Button
+        android:textColor="#fff"
+        android:id="@+id/buttonSelect"
+        android:layout_width="200px"
+        android:layout_height="100px"
+
+        android:background="@drawable/buttonstyle"
+        android:text="login" />
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/buttonGotoJoin"
+        android:layout_marginLeft="15dp"
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:text="회원가입" />
+ </LinearLayout>
+</LinearLayout>
